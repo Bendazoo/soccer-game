@@ -5,13 +5,15 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		// Check to see if commit is uploaded
+		// Check see if commit is uploaded
+		
 		
 		Scanner scanner = new Scanner(System.in);
 		Random random = new Random();
 		
 		System.out.println("What is your name: ");
 		String UserName = scanner.nextLine();
+		
 		
 		System.out.println("What is your age: ");
 		int UserAge = scanner.nextInt();
